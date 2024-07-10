@@ -8,7 +8,7 @@ blinker==1.6.2
     # via flask
 brotli==1.0.9
     # via geventhttpclient
-certifi==2022.12.7
+certifi==2024.7.4
     # via
     #   geventhttpclient
     #   requests
@@ -76,3 +76,4 @@ zope-interface==6.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
